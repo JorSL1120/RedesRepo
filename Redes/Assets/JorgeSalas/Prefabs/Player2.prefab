@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7796826495148250279}
   - component: {fileID: 8254617070298411993}
   - component: {fileID: 7773437559672120049}
+  - component: {fileID: 6527009570428397285}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Untagged
@@ -209,3 +210,20 @@ MonoBehaviour:
   moveSpeed: 5
   jumpForce: 5
   moveInput: {x: 0, y: 0}
+--- !u!114 &6527009570428397285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9030400844358876116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8af8dac31743a9848b151969fa5c3fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerColorizer
+  playerColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
